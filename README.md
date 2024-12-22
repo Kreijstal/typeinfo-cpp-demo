@@ -19,10 +19,11 @@ This project demonstrates the usage of C++'s Runtime Type Information (RTTI) fea
 ### Build Instructions
 
 ```bash
-mkdir build
-cd build
-cmake ..
-make
+# Configure the build
+cmake -B build
+
+# Build the project
+cmake --build build
 ```
 
 ### Running the Demo
